@@ -1,0 +1,26 @@
+let say we have a function swap(int a,int b)
+
+We know if pass two int values, this will not be swapped because 
+int in java are primitives and for primitives their is no pass by reference . There is only pass by value.
+
+
+But , we can Store primitives as objects using Wrapper classes.
+
+Integer a = 10; // Now here 10 is object stored in heap memory.
+and we know that for objects in java, they are passed as reference.
+
+so if we create a function swap(Integer a , Integer b). This should swap the values.
+
+But , There is a catch.
+
+This will not swap the values.
+Becuase Integer class is a final class.
+
+What is this final keyword ?
+
+ANS : The final keyword is a non-access modifier used for classes, attributes and methods, which makes them non-changeable (impossible to inherit or override). The final keyword is useful when you want a variable to always store the same value, like PI (3.14159...).
+
+There is a convention that final keyword variable will be all in uppercase.		
+
+
+**ZB** -> You have to always initialize the final variable while declaration . Because due of its property that it can't be modified later on.
