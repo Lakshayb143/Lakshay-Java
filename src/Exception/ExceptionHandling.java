@@ -2,7 +2,7 @@ package Exception;
 
 public class ExceptionHandling
 {
-    public static void main(String[] args)
+    public static void main(String[] args) throws Exception
     {
 
         int a = 10;
@@ -22,9 +22,9 @@ public class ExceptionHandling
         }
 //        catch(Exception exc){
 //            System.out.println("Message"); // If we add above then all are caught already as this superclass
-                                             //  that's why it is showing Exception 'java.lang.ArithmeticException' has already been caught
+        //  that's why it is showing Exception 'java.lang.ArithmeticException' has already been caught
 //        }
-        catch(MyException | ArithmeticException n){
+        catch(ArithmeticException n){
             System.out.println(n.getMessage());
         }
         catch(Exception exception){
