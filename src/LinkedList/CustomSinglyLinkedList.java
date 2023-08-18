@@ -163,7 +163,7 @@ public class CustomSinglyLinkedList<E>
 
 
 
-    private class Node<E>
+    public class Node<E>
     {
         private E element;
         private Node<E> next;
@@ -185,4 +185,5 @@ public class CustomSinglyLinkedList<E>
                     '}';
         }
     }
+    
 }

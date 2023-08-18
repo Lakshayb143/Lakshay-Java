@@ -1,0 +1,22 @@
+This is a text file generated using File Class in java.io package.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+Note : If any class implements AutoCloseable interface , we can consider that class as a resource.
+
+Buffering refers to the process of temporarily storing data in memory (a buffer) before it is sent or received over a network.
+
+Specifically , A buffer is a linear, finite sequence of elements of a specific primitive type
+In simpler terms , A container for data of a specific primitive type.
+
+For Fast Input/Output in Java,
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
