@@ -6,7 +6,8 @@ public class StringOperators
 {
     public static void main(String[] args)
     {
-        System.out.println('a' + 'b');
+        System.out.println('a' + 'b' - 'b');
+        System.out.println('a' +1-1);
         // In above statement it adds the ascii values of characters.
         System.out.println("a"+"b");
         // And here in Strings , + operator results in string concatenation.

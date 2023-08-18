@@ -24,6 +24,7 @@ public class StringMethods
 
         System.out.println(Arrays.toString(name.split("a")));
 
+        System.out.println(name.substring(1));
 
 
     }

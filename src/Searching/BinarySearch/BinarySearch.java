@@ -14,6 +14,8 @@ public class BinarySearch
         int target = input.nextInt();
         System.out.println(binarySearch2(array,target));
     }
+    // int middle = (start+end)/2; // Might be possible that (start+end) exceeds the range of int in java.
+    // Better way to do this is :  int middle = start + (end - start) / 2 ;
 
     // return the index
     // return -1 if the target is not found.
@@ -24,8 +26,7 @@ public class BinarySearch
         int end = arr.length - 1;
 
         while(start <= end){
-//            int middle = (start+end)/2; // Might be possible that (start+end) exceeds the range of int in java.
-            // Better way to do this is
+
             int middle = start + (end - start) / 2 ;
             int element = arr[middle];
             if(element==target){

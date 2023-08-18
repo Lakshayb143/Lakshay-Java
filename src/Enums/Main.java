@@ -5,8 +5,14 @@ public class Main
     public static void main(String[] args)
     {
         Months list  = Months.MARCH;
-//        System.out.println(list);
+        System.out.println(list.getAbbreviation());
+        System.out.println(list);
         System.out.println(Months.valueOf("MARCH"));
+
+
+        BookGenre obj = BookGenre.FICTION;
+        System.out.println(obj.getGenreDescription());
+
 
 
 
