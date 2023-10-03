@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class CustomSinglyLinkedList<E>
+class CustomSinglyLinkedList<E>
 {
     private Node<E> head;
     private Node<E> tail;
