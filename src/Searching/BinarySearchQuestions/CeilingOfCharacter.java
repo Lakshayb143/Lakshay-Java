@@ -5,8 +5,9 @@ class CeilingOfCharacter {
 
     public static void main(String[] args) {
         char[] arr = {'e','e','g','g'};
-        System.out.println(nextGreatestLetter(arr,'g'));
+        System.out.println(nextGreatestLetter(arr,'a'));
     }
+
     public static char nextGreatestLetter(char[] letters, char target) {
         int start = 0;
         int end = letters.length - 1;

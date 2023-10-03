@@ -28,7 +28,7 @@ public class BinarySearch2DArray
 
         while(row < matrix.length && col >= 0){
             int element = matrix[row][col];
-            if(element== target) {
+            if(element == target) {
                 return new int[]{row, col};
             }
 

@@ -1,11 +1,11 @@
 package LambdaFunctions;
 
-import javax.swing.plaf.TableHeaderUI;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.function.BinaryOperator;
 import java.util.function.Consumer;
 import java.util.function.IntBinaryOperator;
+
 
 public class Main
 {
@@ -24,7 +24,7 @@ public class Main
 
 
         // Using custom functional interface
-        Operation sum = (a ,b) -> a+b;
+        Operation sum = (a,b) -> a+b;
         Operation product = (a,b) -> a*b;
         Operation subrtract = (a,b) -> a-b;
 
@@ -60,5 +60,12 @@ public class Main
 }
 
 interface Operation{
+/*
+    `A functional interface is an interface that contains only one abstract method.
+    They can have only one functionality to exhibit.
+    From Java 8 onwards, lambda expressions can be used to represent the instance of a functional interface.
+    A functional interface can have any number of default methods
+     */
+
     int operation(int a , int b);
 }
